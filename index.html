@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="header">Rock Paper And Scissors Game</div>
+    <div class="cont">
+        <div class="left">
+            <div class="title">Pick One</div>
+            <div class="buttons">
+                <button id="rock" onclick="pick('rock')" >Rock</button>
+                <button id="paper" onclick="pick('paper')">Paper</button>
+                <button id="scissors" onclick="pick('scissors')">Scissors</button>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="scores">
+                <div class="pscore">
+                    <div class="title">
+                        Your Score
+                    </div>
+                    <div class="score">
+                        0
+                    </div>
+                </div>
+                <div class="cscore">
+                    <div class="title">
+                        Computer Score
+                    </div>
+                    <div class="score">
+                        0
+                    </div>
+                </div>
+            </div>
+            <div class="picks">
+                <div class="ppick">
+                    <div class="title">
+                        You Picked
+                    </div>
+                    <div class="pick">
+                        Rock
+                    </div>
+                </div>
+                <div class="cpick">
+                    <div class="title">
+                        Computer Picked
+                    </div>
+                    <div class="pick">
+                        Rock
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="https://images.pexels.com/photos/8294554/pexels-photo-8294554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+    </div>
+    <div class="footer">Made by m-ehab2 as a part of the oding project web dev path</div>
 </body>
+
 </html>

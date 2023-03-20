@@ -1,0 +1,107 @@
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+    margin: 0;
+    justify-content: space-between;
+    width:99%;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+    height: 100%;
+    background-color: aliceblue;
+
+}
+.header{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    font-family: monospace;
+    text-align: center;
+    width: 99.9949%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+}
+.left>.title{
+    color: black;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.left>.buttons{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.left>.buttons>button{
+    background-color: white;
+    border-radius: 12px;
+    border-color: black;
+    height: auto;
+    width: 80px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    height: 100%;
+    color: aliceblue;
+}
+.scores{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
+.scores>div>div{
+    padding: 5px;
+    margin: 10px 10px;
+    text-align: center;
+
+}
+.picks>div>div{
+    padding: 5px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.picks{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+.right{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right>img{
+    scale: 0.5;
+}
+.buttons>button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    font-family: monospace;
+    text-align: center;
+    border-color: black;
+    width: 99.9949%;
+}
